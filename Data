@@ -1,5 +1,11 @@
 For this project I need the following data:
-Totronto resturants data that contains list Locality, Resturant name, their latitude and longitude.
-Nearby places in each locality of Totonto.
+- Toronto data with the different districts and postal codes 
+- Restaturant data for Totonto
+
+Totonto data:
+Datasource : https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M
+Description: I will Scrap Totonto districts Table from Wikipedia and get the coordinates owith the Geopy client.
+
+Totronto resturants data: needs to containn Locality, Resturant name, their latitude and longitude.
 Data source : Fousquare API : "https://developer.foursquare.com/"
 Description : By using this api I will get all the venues in each neighborhood.
